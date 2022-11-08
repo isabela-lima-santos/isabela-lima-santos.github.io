@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*
+#4BB3FD
+#0F7173
+#1DD3B0
+#0496FF
+#F26430
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: #0F7173;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 10px;
+}
+
+section {
+    background-color: white;
+    margin: 10px;
+}
+
+section > p {
+    margin: 0px;
+}
+
+abbr {
+    text-decoration: none;
+    font-style: italic;
+}
+
+p.second {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #0496FF;
+}
+
+a:hover {
+    color: #F26430;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer > nav {
+    padding-top: 10px;
+}
+
+footer > p {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+#pumpkin {
+    width: 72.4px;
+    height: 17px;
+    position: relative;
+    top: 4px;
+}
+
+a > h3 {
+    display: inline;
+}
