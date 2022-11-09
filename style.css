@@ -15,9 +15,9 @@ body {
 }
 
 header {
-    color: #680148;
+    color: #680148;;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -26,12 +26,17 @@ header {
 }
 
 section {
-    background-color: white;
     margin: 10px;
 }
 
 section > p {
     margin: 0px;
+}
+
+#volt {
+    color: #680148;
+    text-align: center;
+    font-weight: bolder;
 }
 
 #doom {
@@ -45,6 +50,10 @@ section > p {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #7CB1F8;
 }
 
 article {
