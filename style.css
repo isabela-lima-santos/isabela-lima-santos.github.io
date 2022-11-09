@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+#000000
+#680148
+#8F84F0
+#6C7ED9
+#7CB1F8
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    color: #680148;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#text {
+    font-size: 1.25em;
+}
+
+section {
+    background-color: white;
+    margin: 10px;
+}
+
+section > p {
+    margin: 0px;
+}
+
+#doom {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#doom-img {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    font-size: 1.1em;
+}
+
+article > div {
+    text-align: center;
+}
+
+article > div > p{
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer > nav {
+    padding-top: 10px;
+}
+
+footer > p {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
