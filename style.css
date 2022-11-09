@@ -1,25 +1,28 @@
 @charset "UTF-8";
 
 /*
-#4BB3FD
-#0F7173
-#1DD3B0
-#0496FF
-#F26430
+#000000
+#680148
+#8F84F0
+#6C7ED9
+#7CB1F8
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
-    color: #0F7173;
+    color: #680148;
     text-align: center;
     font-size: 1.4em;
     font-family: 'Libre Baskerville', serif;
-    padding-bottom: 10px;
+}
+
+#text {
+    font-size: 1.25em;
 }
 
 section {
@@ -31,22 +34,29 @@ section > p {
     margin: 0px;
 }
 
-abbr {
-    text-decoration: none;
-    font-style: italic;
+#doom {
+    text-align: center;
+    font-size: 1.1em;
 }
 
-p.second {
-    margin-top: 5px;
+#doom-img {
+    margin: 15px;
 }
 
 a {
     text-decoration: none;
-    color: #0496FF;
 }
 
-a:hover {
-    color: #F26430;
+article {
+    font-size: 1.1em;
+}
+
+article > div {
+    text-align: center;
+}
+
+article > div > p{
+    margin: 0px;
 }
 
 footer {
@@ -65,15 +75,4 @@ footer > nav {
 footer > p {
     margin-top: 0px;
     padding-bottom: 10px;
-}
-
-#pumpkin {
-    width: 72.4px;
-    height: 17px;
-    position: relative;
-    top: 4px;
-}
-
-a > h3 {
-    display: inline;
 }
