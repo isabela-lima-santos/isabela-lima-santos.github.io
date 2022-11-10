@@ -15,7 +15,8 @@ body {
 }
 
 header {
-    color: #680148;;
+    color: #680148;
+    ;
     text-align: center;
     font-size: 1.6em;
     font-family: 'Libre Baskerville', serif;
@@ -23,20 +24,46 @@ header {
 
 #text {
     font-size: 1.25em;
+    text-align: center;
 }
 
 section {
     margin: 10px;
 }
 
-section > p {
+section>p {
     margin: 0px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+div>p {
+    margin-top: 0px;
+    font-size: small;
 }
 
 #volt {
     color: #680148;
     text-align: center;
     font-weight: bolder;
+}
+
+.button {
+    background-color: #680148;
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px;
 }
 
 #doom {
@@ -49,22 +76,23 @@ section > p {
 }
 
 a {
+    color: #6C7ED9;
     text-decoration: none;
 }
 
 a:hover {
-    color: #7CB1F8;
+    color: #680148;
 }
 
 article {
     font-size: 1.1em;
 }
 
-article > div {
+article>div {
     text-align: center;
 }
 
-article > div > p{
+article>div>p {
     margin: 0px;
 }
 
@@ -77,11 +105,11 @@ footer {
     font-family: 'Times New Roman', Times, serif;
 }
 
-footer > nav {
+footer>nav {
     padding-top: 10px;
 }
 
-footer > p {
+footer>p {
     margin-top: 0px;
     padding-bottom: 10px;
 }
