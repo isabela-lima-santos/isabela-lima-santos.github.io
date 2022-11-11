@@ -23,7 +23,6 @@ header {
 
 #text {
     font-size: 1.25em;
-    text-align: center;
 }
 
 section {
@@ -36,6 +35,7 @@ section>p {
 
 h1 {
     font-size: 2em;
+    color: #8F84F0;
 }
 
 h3 {
@@ -65,6 +65,10 @@ div>p {
     border: 0px;
 }
 
+#size {
+    margin-bottom: 0px;
+}
+
 #doom {
     text-align: center;
     font-size: 1.1em;
@@ -85,9 +89,6 @@ a:hover {
 
 article {
     font-size: 1.1em;
-}
-
-article>div {
     text-align: center;
 }
 
