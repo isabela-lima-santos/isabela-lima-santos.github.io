@@ -73,8 +73,23 @@ div>p {
 
 section>h2 {
     text-align: center;
-    color: #7CB1F8;
+    color: #680148;
     font-size: 1em;
+}
+
+#project {
+    color: black;
+    font-weight: bold;
+}
+
+#project-div {
+    text-align: center;
+    background-color: #7CB1F8;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 17%;
+    margin: 0 auto;
 }
 
 #doom {
