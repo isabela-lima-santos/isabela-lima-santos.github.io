@@ -55,6 +55,11 @@ div>p {
     font-weight: bolder;
 }
 
+#tip {
+    font-style: italic;
+    font-size: 0.85em;
+}
+
 .button {
     background-color: #680148;
     color: white;
