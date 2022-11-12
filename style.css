@@ -23,6 +23,7 @@ header {
 
 #text {
     font-size: 1.25em;
+    text-align: center;
 }
 
 section {
@@ -63,10 +64,17 @@ div>p {
     height: 35px;
     border-radius: 10px;
     border: 0px;
+    margin-bottom: 15px;
 }
 
 #size {
     margin-bottom: 0px;
+}
+
+section>h2 {
+    text-align: center;
+    color: #7CB1F8;
+    font-size: 1em;
 }
 
 #doom {
